@@ -1,0 +1,60 @@
+/* Button styling */
+button {
+  background-color: #38CFD9;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 2px;
+  line-height: 2;
+  padding: 1em 2.5em;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  margin: 0.5em;
+}
+
+.button:hover {
+  background-color: #2BBAC0;
+  transform: translateY(-2px);
+}
+
+/* Specific button styles */
+.pdf-btn {
+  background-color: #FF5733;
+}
+
+.pdf-btn:hover {
+  background-color: #E04B29;
+}
+
+.word-btn {
+  background-color: #4CAF50;
+}
+
+.word-btn:hover {
+  background-color: #45A043;
+}
+
+.export-btn {
+  margin-right: 10px; /* Adjust the spacing between PDF and Word export buttons */
+}
+
+/* Container to align the buttons */
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 1em;
+}
+
+/* Ensure buttons are on the same line */
+.button-container form {
+  display: flex;
+  align-items: center;
+}
+
+.button-container form .custom-btn {
+  margin-right: 10px; /* Adjust spacing between buttons */
+}
